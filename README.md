@@ -1,5 +1,7 @@
 # Discord Raid Tool
 
+![DCspam tool](./main.png)
+
 A powerful, user-friendly Python tool designed for executing Discord raids without the need for token-based authentication. This tool allows you to manually log into multiple accounts, giving you greater control and flexibility in managing raids.
 
 ### Features
