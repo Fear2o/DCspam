@@ -1,44 +1,46 @@
 # Discord Raid Tool
 
-A powerful and user-friendly Python tool designed for managing Discord raids without the need for tokens. This tool allows users to log in to their accounts manually, providing flexibility and ease of use.
+A powerful, user-friendly Python tool designed for executing Discord raids without the need for token-based authentication. This tool allows you to manually log into multiple accounts, giving you greater control and flexibility in managing raids.
 
 ### Features
-- **Manual Login**: Easily log in to multiple Discord accounts without the hassle of token management.
-- **User-Friendly Interface**: Intuitive and straightforward interface for seamless navigation and operation.
-- **Efficient Raiding**: Execute raids effectively with customizable options tailored to your needs.
-- **Comprehensive Logging**: Keep track of all actions performed during raids with detailed logs.
+- **Manual Account Login**: Log in manually to multiple Discord accounts, bypassing the need for token management, ensuring better security and flexibility.
+- **Intuitive Interface**: A clean, simple GUI for easy navigation and seamless operation.
+- **Customizable Raids**: Configure the number of accounts and messages with customizable options for efficient raiding.
+- **Rate Limiting Control**: Automatically manages sending frequency to avoid Discord rate limits and ensure smooth operation.
+- **Detailed Logging**: Keep track of all actions during the raid with comprehensive logs for future reference.
 
 ### Requirements
 - Python 3.x
-- Required libraries specified in `requirements.txt`
+- All dependencies listed in `requirements.txt`
 
 ### Installation
-Go to the Releases tab and download the latest exe file, or
+
+Download the latest executable file from the Releases tab or follow the steps below:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Fear2o/DCspam
+   ```
 
 2. Navigate to the project directory:
    ```bash
    cd DCspam
    ```
 
-3. Install the necessary dependencies:
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage
-Run the DCspam.exe file if you installed it from the Releases tab, or
+### Usage
+To use the executable version, simply run the DCspam.exe file after downloading from the Releases tab. If you're running the Python script directly:
 
 1. Run the tool
    ```bash
    python DCspam.py
    ```
 
-2. Follow the prompts, after you input the required info click "start spamming" then it will open edge browser windows depending on how many accounts you set, after you login to the accounts, if you are running the .exe file then press enter in the open command prompt, if you are not using the .exe version then do what the terminal tells you to do
+2. Follow the on-screen prompts. After entering the required information, click "Start Spamming". The tool will open multiple Edge browser windows based on the number of accounts you’ve set. After logging into the accounts, if using the .exe version, press Enter in the open command prompt. If running the Python script, follow the terminal instructions.
 
-## Disclaimer
-This tool is intended for educational purposes and should be used responsibly. Unauthorized use of this tool may violate Discord's Terms of Service. Always ensure you have permission before executing raids.
-   
+### Disclaimer
+This tool is for educational purposes only. Unauthorized use of this tool may violate Discord's Terms of Service. Always ensure you have proper permissions before executing raids.
