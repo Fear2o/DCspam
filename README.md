@@ -14,6 +14,7 @@ A powerful, user-friendly Python tool designed for executing Discord raids witho
 ### Requirements
 - Python 3.x
 - All dependencies listed in `requirements.txt`
+- a version of Edge browser
 
 ### Installation
 
